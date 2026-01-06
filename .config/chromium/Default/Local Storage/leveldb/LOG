@@ -1,0 +1,45 @@
+2025/12/09-11:48:11.951 8 Reusing MANIFEST /home/hannes/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2025/12/09-11:48:11.956 8 Recovering log #95
+2025/12/09-11:48:11.957 8 Reusing old log /home/hannes/.config/chromium/Default/Local Storage/leveldb/000095.log 
+2025/12/09-11:49:11.965 a Level-0 table #99: started
+2025/12/09-11:49:11.968 a Level-0 table #99: 116024 bytes OK
+2025/12/09-11:49:11.972 a Delete type=0 #95
+2025/12/09-11:50:14.418 a Level-0 table #101: started
+2025/12/09-11:50:14.452 a Level-0 table #101: 56828 bytes OK
+2025/12/09-11:50:14.455 a Delete type=0 #98
+2025/12/09-11:50:14.456 a Compacting 4@0 + 1@1 files
+2025/12/09-11:50:14.469 a Generated table #102@0: 240 keys, 674265 bytes
+2025/12/09-11:50:14.469 a Compacted 4@0 + 1@1 files => 674265 bytes
+2025/12/09-11:50:14.472 a compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/12/09-11:50:14.473 a Delete type=2 #92
+2025/12/09-11:50:14.473 a Delete type=2 #94
+2025/12/09-11:50:14.473 a Delete type=2 #99
+2025/12/09-11:50:14.473 a Delete type=2 #101
+2025/12/09-11:50:14.473 a Delete type=2 #96
+2025/12/09-11:51:14.418 a Level-0 table #104: started
+2025/12/09-11:51:14.453 a Level-0 table #104: 45246 bytes OK
+2025/12/09-11:51:14.459 a Delete type=0 #100
+2025/12/09-11:53:14.419 a Level-0 table #106: started
+2025/12/09-11:53:14.453 a Level-0 table #106: 45996 bytes OK
+2025/12/09-11:53:14.457 a Delete type=0 #103
+2025/12/09-11:54:20.426 a Level-0 table #108: started
+2025/12/09-11:54:20.434 a Level-0 table #108: 112646 bytes OK
+2025/12/09-11:54:20.438 a Delete type=0 #105
+2025/12/09-11:56:13.280 a Level-0 table #110: started
+2025/12/09-11:56:13.287 a Level-0 table #110: 44197 bytes OK
+2025/12/09-11:56:13.291 a Delete type=0 #107
+2025/12/09-11:56:13.292 a Compacting 4@0 + 1@1 files
+2025/12/09-11:56:13.309 a Generated table #111@0: 253 keys, 697340 bytes
+2025/12/09-11:56:13.309 a Compacted 4@0 + 1@1 files => 697340 bytes
+2025/12/09-11:56:13.311 a compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/12/09-11:56:13.312 a Delete type=2 #102
+2025/12/09-11:56:13.313 a Delete type=2 #104
+2025/12/09-11:56:13.313 a Delete type=2 #110
+2025/12/09-11:56:13.313 a Delete type=2 #108
+2025/12/09-11:56:13.313 a Delete type=2 #106
+2025/12/09-11:58:14.419 a Level-0 table #113: started
+2025/12/09-11:58:14.427 a Level-0 table #113: 62200 bytes OK
+2025/12/09-11:58:14.433 a Delete type=0 #109
+2025/12/09-11:59:13.282 a Level-0 table #115: started
+2025/12/09-11:59:13.292 a Level-0 table #115: 81646 bytes OK
+2025/12/09-11:59:13.298 a Delete type=0 #112

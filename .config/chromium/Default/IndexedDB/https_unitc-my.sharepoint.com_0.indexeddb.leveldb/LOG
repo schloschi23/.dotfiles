@@ -1,0 +1,12 @@
+2025/12/08-19:49:36.890 dfa Creating DB /home/hannes/.config/chromium/Default/IndexedDB/https_unitc-my.sharepoint.com_0.indexeddb.leveldb since it was missing.
+2025/12/08-19:49:36.895 dfa Reusing MANIFEST /home/hannes/.config/chromium/Default/IndexedDB/https_unitc-my.sharepoint.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/08-19:49:38.689 dfa Level-0 table #5: started
+2025/12/08-19:49:38.717 dfa Level-0 table #5: 1553126 bytes OK
+2025/12/08-19:49:38.722 dfa Delete type=0 #3
+2025/12/08-19:50:18.498 dfb Level-0 table #7: started
+2025/12/08-19:50:18.524 dfb Level-0 table #7: 1784002 bytes OK
+2025/12/08-19:50:18.529 dfb Delete type=0 #4
+2025/12/08-19:50:28.395 dfd Compacting 1@1 + 1@2 files
+2025/12/08-19:50:28.433 dfd Generated table #8@1: 3067 keys, 1279294 bytes
+2025/12/08-19:50:28.434 dfd Compacted 1@1 + 1@2 files => 1279294 bytes
+2025/12/08-19:50:28.436 dfd compacted to: files[ 0 0 1 0 0 0 0 ]

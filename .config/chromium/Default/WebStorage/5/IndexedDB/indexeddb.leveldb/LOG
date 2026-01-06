@@ -1,0 +1,5 @@
+2025/12/08-19:50:36.638 dfd Creating DB /home/hannes/.config/chromium/Default/WebStorage/5/IndexedDB/indexeddb.leveldb since it was missing.
+2025/12/08-19:50:36.645 dfd Reusing MANIFEST /home/hannes/.config/chromium/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/12/08-19:51:09.008 dfb Level-0 table #5: started
+2025/12/08-19:51:09.029 dfb Level-0 table #5: 2018898 bytes OK
+2025/12/08-19:51:09.034 dfb Delete type=0 #3

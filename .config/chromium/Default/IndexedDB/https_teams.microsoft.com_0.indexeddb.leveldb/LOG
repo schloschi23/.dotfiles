@@ -1,0 +1,21 @@
+2025/12/09-11:48:15.375 372 Reusing MANIFEST /home/hannes/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/09-11:48:15.375 372 Recovering log #16
+2025/12/09-11:48:15.382 372 Reusing old log /home/hannes/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000016.log 
+2025/12/09-11:53:24.916 373 Level-0 table #21: started
+2025/12/09-11:53:24.972 373 Level-0 table #21: 1825892 bytes OK
+2025/12/09-11:53:24.977 373 Delete type=0 #16
+2025/12/09-11:53:25.037 373 Compacting 1@1 + 1@2 files
+2025/12/09-11:53:25.081 373 Generated table #22@1: 10018 keys, 1907234 bytes
+2025/12/09-11:53:25.081 373 Compacted 1@1 + 1@2 files => 1907234 bytes
+2025/12/09-11:53:25.084 373 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-11:53:25.084 373 Delete type=2 #21
+2025/12/09-11:53:25.084 373 Delete type=2 #18
+2025/12/09-11:53:25.123 373 Level-0 table #24: started
+2025/12/09-11:53:25.156 373 Level-0 table #24: 2004178 bytes OK
+2025/12/09-11:53:25.160 373 Delete type=0 #20
+2025/12/09-11:56:27.665 373 Compacting 1@1 + 1@2 files
+2025/12/09-11:56:27.707 373 Generated table #25@1: 9924 keys, 1858504 bytes
+2025/12/09-11:56:27.707 373 Compacted 1@1 + 1@2 files => 1858504 bytes
+2025/12/09-11:56:27.709 373 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-11:56:27.710 373 Delete type=2 #24
+2025/12/09-11:56:27.710 373 Delete type=2 #22

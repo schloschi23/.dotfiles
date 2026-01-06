@@ -1,0 +1,10 @@
+2025/12/08-19:55:09.423 8 Reusing MANIFEST /home/hannes/.config/chromium/Default/Session Storage/MANIFEST-000001
+2025/12/08-19:55:09.425 8 Recovering log #6
+2025/12/08-19:55:09.425 8 Level-0 table #9: started
+2025/12/08-19:55:09.430 8 Level-0 table #9: 33957 bytes OK
+2025/12/08-19:55:09.431 8 Recovering log #9
+2025/12/08-19:55:09.432 8 Reusing old log /home/hannes/.config/chromium/Default/Session Storage/000009.log 
+2025/12/08-19:55:09.450 8 Delete type=0 #6
+2025/12/09-09:25:12.074 7b Level-0 table #11: started
+2025/12/09-09:25:12.082 7b Level-0 table #11: 17705 bytes OK
+2025/12/09-09:25:12.086 7b Delete type=0 #9

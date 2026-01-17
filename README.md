@@ -1,6 +1,6 @@
 ## configuration files
 This repository contains my personal Arch Linux configuration using GNU Stow
-for the symlinking
+for symlinking
 
 
 ## packagages

@@ -21,7 +21,7 @@ output * bg ~/.config/wallpapers/windows-xp.jpg fill
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
 # Monitor configuration:
-output eDP-1 resolution 2560x1600 position 0 1600
+output eDP-1 resolution 2560x1600 scale 1.5 position 0 1600
 output HDMI-A-1 resolution 1920x1080 position 0 0
 
 # get the names of outputs by running: swaymsg -t get_outputs

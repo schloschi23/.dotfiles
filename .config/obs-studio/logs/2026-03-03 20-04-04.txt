@@ -1,0 +1,484 @@
+20:04:04.805: Platform: Wayland
+20:04:04.805: CPU Name: AMD Ryzen 7 7735HS with Radeon Graphics
+20:04:04.805: CPU Speed: 3151.224MHz
+20:04:04.805: Physical Cores: 8, Logical Cores: 16
+20:04:04.805: Physical Memory: 30839MB Total, 27847MB Free
+20:04:04.805: Kernel Version: Linux 6.17.13-hardened1-3-hardened
+20:04:04.805: Distribution: "Arch Linux" Unknown
+20:04:04.805: Session Type: wayland
+20:04:04.807: Current Date/Time: 2026-03-03, 08:04:04 PM
+20:04:04.807: Browser Hardware Acceleration: true
+20:04:04.807: Qt Version: 6.10.2 (runtime), 6.10.1 (compiled)
+20:04:04.807: Portable mode: false
+20:04:04.836: OBS 32.0.4 (linux)
+20:04:04.836: ---------------------------------
+20:04:04.837: ---------------------------------
+20:04:04.837: audio settings reset:
+20:04:04.837: 	samples per sec: 48000
+20:04:04.837: 	speakers:        2
+20:04:04.837: 	max buffering:   960 milliseconds
+20:04:04.837: 	buffering type:  dynamically increasing
+20:04:04.838: ---------------------------------
+20:04:04.838: Initializing OpenGL...
+20:04:04.838: Using EGL/Wayland
+20:04:04.877: Initialized EGL 1.5
+20:04:04.900: Loading up OpenGL on adapter AMD AMD Radeon 680M (radeonsi, rembrandt, ACO, DRM 3.64, 6.17.13-hardened1-3-hardened)
+20:04:04.900: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 26.0.1-arch1.1, shading language 4.60
+20:04:04.926: ---------------------------------
+20:04:04.926: video settings reset:
+20:04:04.926: 	base resolution:   1920x1080
+20:04:04.926: 	output resolution: 1280x720
+20:04:04.926: 	downscale filter:  Bicubic
+20:04:04.926: 	fps:               30/1
+20:04:04.926: 	format:            NV12
+20:04:04.926: 	YUV mode:          Rec. 709/Partial
+20:04:04.926: NV12 texture support enabled
+20:04:04.926: P010 texture support not available
+20:04:04.930: Audio monitoring device:
+20:04:04.930: 	name: Default
+20:04:04.930: 	id: default
+20:04:04.932: ---------------------------------
+20:04:04.933: Failed to load 'en-US' text for module: 'decklink-captions.so'
+20:04:04.934: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+20:04:04.934: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+20:04:04.934: Failed to initialize module 'decklink.so'
+20:04:05.033: [pipewire] Available capture sources:
+20:04:05.033: [pipewire]     - Monitor source
+20:04:05.040: v4l2loopback not installed, virtual camera not registered
+20:04:05.055: VAAPI: API version 1.22
+20:04:05.056: FFmpeg VAAPI H264 encoding supported
+20:04:05.060: FFmpeg VAAPI AV1 encoding not supported
+20:04:05.063: FFmpeg VAAPI HEVC encoding supported
+20:04:05.066: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+20:04:05.066: 
+20:04:05.066: NVENC not supported
+20:04:05.066: Failed to initialize module 'obs-nvenc.so'
+20:04:05.086: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+20:04:05.086: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.10.1 | Qt version (run-time): 6.10.2
+20:04:05.086: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+20:04:05.089: [obs-websocket] [obs_module_load] Module loaded.
+20:04:05.092: ---------------------------------
+20:04:05.092:   Loaded Modules:
+20:04:05.092:     text-freetype2.so
+20:04:05.092:     rtmp-services.so
+20:04:05.092:     obs-x264.so
+20:04:05.092:     obs-websocket.so
+20:04:05.092:     obs-webrtc.so
+20:04:05.092:     obs-vst.so
+20:04:05.092:     obs-transitions.so
+20:04:05.092:     obs-qsv11.so
+20:04:05.092:     obs-outputs.so
+20:04:05.092:     obs-libfdk.so
+20:04:05.092:     obs-filters.so
+20:04:05.092:     obs-ffmpeg.so
+20:04:05.092:     linux-v4l2.so
+20:04:05.092:     linux-pulseaudio.so
+20:04:05.092:     linux-pipewire.so
+20:04:05.092:     linux-jack.so
+20:04:05.092:     linux-capture.so
+20:04:05.092:     linux-alsa.so
+20:04:05.092:     image-source.so
+20:04:05.092:     frontend-tools.so
+20:04:05.092:     decklink-output-ui.so
+20:04:05.092:     decklink-captions.so
+20:04:05.092: ---------------------------------
+20:04:05.092: ---------------------------------
+20:04:05.092: Available Encoders:
+20:04:05.092:   Video Encoders:
+20:04:05.092: 	- ffmpeg_svt_av1 (SVT-AV1)
+20:04:05.092: 	- ffmpeg_aom_av1 (AOM AV1)
+20:04:05.092: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+20:04:05.092: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+20:04:05.092: 	- obs_x264 (x264)
+20:04:05.092:   Audio Encoders:
+20:04:05.092: 	- ffmpeg_aac (FFmpeg AAC)
+20:04:05.092: 	- ffmpeg_opus (FFmpeg Opus)
+20:04:05.092: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+20:04:05.092: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+20:04:05.092: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+20:04:05.092: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+20:04:05.092: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+20:04:05.092: 	- libfdk_aac (libfdk AAC)
+20:04:05.092: ==== Startup complete ===============================================
+20:04:05.139: All scene data cleared
+20:04:05.139: ------------------------------------------------
+20:04:05.147: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+20:04:05.147: Deduplication logic is being applied to all monitored sources.
+20:04:05.147: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.10) 15.0.0'
+20:04:05.147: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+20:04:05.148: pulse-input: Started recording from 'alsa_output.pci-0000_05_00.6.HiFi__Speaker__sink.monitor' (default)
+20:04:05.148: [Loaded global audio device]: 'Desktop Audio'
+20:04:05.148: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.10) 15.0.0'
+20:04:05.149: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+20:04:05.149: pulse-input: Started recording from 'alsa_input.pci-0000_05_00.6.HiFi__Mic1__source' (default)
+20:04:05.149: [Loaded global audio device]: 'Mic/Aux'
+20:04:05.150: Switched to scene 'Scene'
+20:04:05.151: ------------------------------------------------
+20:04:05.151: Loaded scenes:
+20:04:05.151: - scene 'Scene':
+20:04:05.151: ------------------------------------------------
+20:04:05.175: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+20:04:05.175: Deduplication logic is being applied to all monitored sources.
+20:04:05.733: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Mic/Aux)
+20:04:05.733: 
+20:04:14.147: PipeWire initialized
+20:04:14.149: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+20:04:14.209: [pipewire] Screencast session created
+20:04:17.520: [pipewire] Asking for monitor and window
+20:04:17.552: [pipewire] source selected, setting up screencast
+20:04:17.557: [pipewire] Server version: 1.4.10
+20:04:17.557: [pipewire] Library version: 1.4.10
+20:04:17.557: [pipewire] Header version: 1.4.9
+20:04:17.557: [pipewire] Created stream 0xce115ea2420
+20:04:17.557: [pipewire] Stream 0xce115ea2420 state: "connecting" (error: none)
+20:04:17.557: [pipewire] Playing stream 0xce115ea2420
+20:04:17.573: [pipewire] Stream 0xce115ea2420 state: "paused" (error: none)
+20:04:17.574: [pipewire] Negotiated format:
+20:04:17.574: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:04:17.574: [pipewire]     Modifier: 0x0
+20:04:17.574: [pipewire]     Size: 2560x1600
+20:04:17.574: [pipewire]     Framerate: 0/1
+20:04:17.576: [pipewire] Negotiated format:
+20:04:17.576: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:04:17.576: [pipewire]     Modifier: 0x200000010567b03
+20:04:17.576: [pipewire]     Size: 2560x1600
+20:04:17.576: [pipewire]     Framerate: 0/1
+20:04:17.577: [pipewire] Stream 0xce115ea2420 state: "streaming" (error: none)
+20:05:02.212: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0xce1155a9c60 with focusing surface 0xce113a8f180
+20:05:08.950: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0xce1155a9c60 with focusing surface 0xce113a8f180
+20:05:27.295: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0xce115636ba0 with focusing surface 0xce113a8f180
+20:05:29.537: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0xce115636ba0 with focusing surface 0xce113a8f180
+20:05:59.256: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0xce115636770 with focusing surface 0xce113a8f180
+20:06:00.413: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0xce115636770 with focusing surface 0xce113a8f180
+20:06:00.996: User Removed source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) from scene 'Scene'
+20:06:00.997: [pipewire] Stream 0xce115ea2420 state: "paused" (error: none)
+20:06:00.998: [pipewire] Stream 0xce115ea2420 state: "unconnected" (error: none)
+20:06:12.081: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0xce113a8f180 with focusing surface 0xce115eb79e0
+20:06:13.454: PipeWire initialized
+20:06:13.457: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+20:06:13.483: [pipewire] Screencast session created
+20:06:13.488: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0xce11568ea60 with focusing surface 0xce113a8f180
+20:06:15.980: [pipewire] Asking for monitor and window
+20:06:15.991: [pipewire] source selected, setting up screencast
+20:06:15.996: [pipewire] Server version: 1.4.10
+20:06:15.997: [pipewire] Library version: 1.4.10
+20:06:15.997: [pipewire] Header version: 1.4.9
+20:06:15.997: [pipewire] Created stream 0xce115f72c20
+20:06:15.997: [pipewire] Stream 0xce115f72c20 state: "connecting" (error: none)
+20:06:15.997: [pipewire] Playing stream 0xce115f72c20
+20:06:15.998: [pipewire] Stream 0xce115f72c20 state: "paused" (error: none)
+20:06:16.001: [pipewire] Negotiated format:
+20:06:16.001: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:06:16.001: [pipewire]     Modifier: 0x0
+20:06:16.001: [pipewire]     Size: 2560x1600
+20:06:16.001: [pipewire]     Framerate: 0/1
+20:06:16.002: [pipewire] Negotiated format:
+20:06:16.002: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:06:16.002: [pipewire]     Modifier: 0x200000010567b03
+20:06:16.002: [pipewire]     Size: 2560x1600
+20:06:16.002: [pipewire]     Framerate: 0/1
+20:06:16.003: [pipewire] Stream 0xce115f72c20 state: "streaming" (error: none)
+20:07:17.786: ---------------------------------
+20:07:17.786: [x264 encoder: 'simple_video_stream'] preset: veryfast
+20:07:17.818: [x264 encoder: 'simple_video_stream'] settings:
+20:07:17.818: 	rate_control: CBR
+20:07:17.818: 	bitrate:      6000
+20:07:17.818: 	buffer size:  6000
+20:07:17.818: 	crf:          23
+20:07:17.818: 	fps_num:      30
+20:07:17.818: 	fps_den:      1
+20:07:17.818: 	width:        1280
+20:07:17.818: 	height:       720
+20:07:17.818: 	keyint:       250
+20:07:17.818: 
+20:07:17.830: libfdk_aac encoder created
+20:07:17.830: libfdk_aac bitrate: 160, channels: 2
+20:07:17.831: ==== Recording Start ===============================================
+20:07:17.831: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/hannes/2026-03-03 20-07-17.mp4'...
+20:07:25.158: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+20:07:25.158: [mp4 muxer: 'simple_file_output'] Number of fragments: 3
+20:07:25.158: [mp4 muxer: 'simple_file_output'] Full moov size: 4 KiB
+20:07:25.158: [mp4 muxer: 'simple_file_output'] Final mdat size: 4493 KiB
+20:07:25.158: Output 'simple_file_output': stopping
+20:07:25.158: Output 'simple_file_output': Total frames output: 184
+20:07:25.158: Output 'simple_file_output': Total drawn frames: 219
+20:07:25.158: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+20:07:25.159: ==== Recording Stop ================================================
+20:07:25.165: [mp4 output: 'simple_file_output'] File output complete. Finalization took 6 ms.
+20:07:25.196: libfdk_aac encoder destroyed
+20:08:37.086: Settings changed (outputs)
+20:08:37.086: ------------------------------------------------
+20:08:55.042: Settings changed (outputs)
+20:08:55.042: ------------------------------------------------
+20:09:01.801: ---------------------------------
+20:09:01.801: [x264 encoder: 'simple_video_recording'] preset: veryfast
+20:09:01.801: [x264 encoder: 'simple_video_recording'] profile: high
+20:09:01.801: [x264 encoder: 'simple_video_recording'] settings:
+20:09:01.801: 	rate_control: CRF
+20:09:01.801: 	bitrate:      0
+20:09:01.801: 	buffer size:  0
+20:09:01.801: 	crf:          21
+20:09:01.801: 	fps_num:      30
+20:09:01.801: 	fps_den:      1
+20:09:01.801: 	width:        1280
+20:09:01.801: 	height:       720
+20:09:01.801: 	keyint:       250
+20:09:01.801: 
+20:09:01.805: libfdk_aac encoder created
+20:09:01.805: libfdk_aac bitrate: 192, channels: 2
+20:09:01.806: ==== Recording Start ===============================================
+20:09:01.806: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/hannes/recording/2026-03-03 20-09-01.mp4'...
+20:20:53.299: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+20:20:53.299: [mp4 muxer: 'simple_file_output'] Number of fragments: 89
+20:20:53.304: [mp4 muxer: 'simple_file_output'] Full moov size: 381 KiB
+20:20:53.304: [mp4 muxer: 'simple_file_output'] Final mdat size: 27466 KiB
+20:20:53.304: Output 'simple_file_output': stopping
+20:20:53.304: Output 'simple_file_output': Total frames output: 21308
+20:20:53.304: Output 'simple_file_output': Total drawn frames: 21345
+20:20:53.304: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+20:20:53.304: [mp4 output: 'simple_file_output'] File output complete. Finalization took 5 ms.
+20:20:53.304: ==== Recording Stop ================================================
+20:20:53.337: libfdk_aac encoder destroyed
+20:52:24.787: [pipewire] Stream 0xce115f72c20 state: "paused" (error: none)
+20:52:24.788: [pipewire] Negotiated format:
+20:52:24.789: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:52:24.789: [pipewire]     Modifier: 0x200000010567b03
+20:52:24.789: [pipewire]     Size: 2560x1600
+20:52:24.789: [pipewire]     Framerate: 0/1
+20:52:24.789: [pipewire] Negotiated format:
+20:52:24.789: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:52:24.789: [pipewire]     Modifier: 0x200000010567b03
+20:52:24.789: [pipewire]     Size: 2560x1600
+20:52:24.789: [pipewire]     Framerate: 0/1
+20:52:24.791: [pipewire] Stream 0xce115f72c20 state: "streaming" (error: none)
+20:52:54.952: ---------------------------------
+20:52:54.952: [x264 encoder: 'simple_video_recording'] preset: veryfast
+20:52:54.952: [x264 encoder: 'simple_video_recording'] profile: high
+20:52:54.952: [x264 encoder: 'simple_video_recording'] settings:
+20:52:54.952: 	rate_control: CRF
+20:52:54.952: 	bitrate:      0
+20:52:54.952: 	buffer size:  0
+20:52:54.952: 	crf:          21
+20:52:54.952: 	fps_num:      30
+20:52:54.952: 	fps_den:      1
+20:52:54.952: 	width:        1280
+20:52:54.952: 	height:       720
+20:52:54.952: 	keyint:       250
+20:52:54.952: 
+20:52:54.956: libfdk_aac encoder created
+20:52:54.956: libfdk_aac bitrate: 192, channels: 2
+20:52:54.957: ==== Recording Start ===============================================
+20:52:54.958: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/hannes/recording/2026-03-03 20-52-54.mp4'...
+21:01:31.900: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+21:01:31.900: [mp4 muxer: 'simple_file_output'] Number of fragments: 68
+21:01:31.903: [mp4 muxer: 'simple_file_output'] Full moov size: 277 KiB
+21:01:31.903: [mp4 muxer: 'simple_file_output'] Final mdat size: 22056 KiB
+21:01:31.903: Output 'simple_file_output': stopping
+21:01:31.903: Output 'simple_file_output': Total frames output: 15472
+21:01:31.903: Output 'simple_file_output': Total drawn frames: 15509
+21:01:31.903: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+21:01:31.904: [mp4 output: 'simple_file_output'] File output complete. Finalization took 3 ms.
+21:01:31.904: ==== Recording Stop ================================================
+21:01:31.931: libfdk_aac encoder destroyed
+21:09:05.749: ---------------------------------
+21:09:05.749: [x264 encoder: 'simple_video_recording'] preset: veryfast
+21:09:05.749: [x264 encoder: 'simple_video_recording'] profile: high
+21:09:05.750: [x264 encoder: 'simple_video_recording'] settings:
+21:09:05.750: 	rate_control: CRF
+21:09:05.750: 	bitrate:      0
+21:09:05.750: 	buffer size:  0
+21:09:05.750: 	crf:          21
+21:09:05.750: 	fps_num:      30
+21:09:05.750: 	fps_den:      1
+21:09:05.750: 	width:        1280
+21:09:05.750: 	height:       720
+21:09:05.750: 	keyint:       250
+21:09:05.750: 
+21:09:05.753: libfdk_aac encoder created
+21:09:05.754: libfdk_aac bitrate: 192, channels: 2
+21:09:05.755: ==== Recording Start ===============================================
+21:09:05.755: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/hannes/recording/2026-03-03 21-09-05.mp4'...
+21:29:54.265: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+21:29:54.266: [mp4 muxer: 'simple_file_output'] Number of fragments: 156
+21:29:54.273: [mp4 muxer: 'simple_file_output'] Full moov size: 669 KiB
+21:29:54.273: [mp4 muxer: 'simple_file_output'] Final mdat size: 53362 KiB
+21:29:54.273: Output 'simple_file_output': stopping
+21:29:54.273: Output 'simple_file_output': Total frames output: 37419
+21:29:54.273: Output 'simple_file_output': Total drawn frames: 37456
+21:29:54.274: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+21:29:54.274: [mp4 output: 'simple_file_output'] File output complete. Finalization took 8 ms.
+21:29:54.274: ==== Recording Stop ================================================
+21:29:54.304: libfdk_aac encoder destroyed
+22:24:12.601: [pipewire] Stream 0xce115f72c20 state: "paused" (error: none)
+22:24:12.601: [pipewire] Negotiated format:
+22:24:12.601: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+22:24:12.601: [pipewire]     Modifier: 0x200000010567b03
+22:24:12.601: [pipewire]     Size: 2560x1600
+22:24:12.601: [pipewire]     Framerate: 0/1
+22:24:12.601: [pipewire] Negotiated format:
+22:24:12.601: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+22:24:12.601: [pipewire]     Modifier: 0x200000010567b03
+22:24:12.601: [pipewire]     Size: 2560x1600
+22:24:12.601: [pipewire]     Framerate: 0/1
+22:24:12.603: [pipewire] Stream 0xce115f72c20 state: "streaming" (error: none)
+22:44:47.012: ---------------------------------
+22:44:47.012: [x264 encoder: 'simple_video_recording'] preset: veryfast
+22:44:47.012: [x264 encoder: 'simple_video_recording'] profile: high
+22:44:47.012: [x264 encoder: 'simple_video_recording'] settings:
+22:44:47.012: 	rate_control: CRF
+22:44:47.012: 	bitrate:      0
+22:44:47.012: 	buffer size:  0
+22:44:47.012: 	crf:          21
+22:44:47.012: 	fps_num:      30
+22:44:47.012: 	fps_den:      1
+22:44:47.012: 	width:        1280
+22:44:47.012: 	height:       720
+22:44:47.012: 	keyint:       250
+22:44:47.012: 
+22:44:47.017: libfdk_aac encoder created
+22:44:47.017: libfdk_aac bitrate: 192, channels: 2
+22:44:47.018: ==== Recording Start ===============================================
+22:44:47.018: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/hannes/recording/2026-03-03 22-44-47.mp4'...
+23:06:49.894: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+23:06:49.895: [mp4 muxer: 'simple_file_output'] Number of fragments: 165
+23:06:49.903: [mp4 muxer: 'simple_file_output'] Full moov size: 709 KiB
+23:06:49.903: [mp4 muxer: 'simple_file_output'] Final mdat size: 48447 KiB
+23:06:49.903: Output 'simple_file_output': stopping
+23:06:49.903: Output 'simple_file_output': Total frames output: 39650
+23:06:49.903: Output 'simple_file_output': Total drawn frames: 39687
+23:06:49.903: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+23:06:49.904: [mp4 output: 'simple_file_output'] File output complete. Finalization took 9 ms.
+23:06:49.904: ==== Recording Stop ================================================
+23:06:49.942: libfdk_aac encoder destroyed
+23:18:07.003: ---------------------------------
+23:18:07.003: [x264 encoder: 'simple_video_recording'] preset: veryfast
+23:18:07.003: [x264 encoder: 'simple_video_recording'] profile: high
+23:18:07.003: [x264 encoder: 'simple_video_recording'] settings:
+23:18:07.003: 	rate_control: CRF
+23:18:07.003: 	bitrate:      0
+23:18:07.003: 	buffer size:  0
+23:18:07.003: 	crf:          21
+23:18:07.003: 	fps_num:      30
+23:18:07.003: 	fps_den:      1
+23:18:07.003: 	width:        1280
+23:18:07.003: 	height:       720
+23:18:07.003: 	keyint:       250
+23:18:07.003: 
+23:18:07.008: libfdk_aac encoder created
+23:18:07.008: libfdk_aac bitrate: 192, channels: 2
+23:18:07.009: ==== Recording Start ===============================================
+23:18:07.009: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/hannes/recording/2026-03-03 23-18-07.mp4'...
+23:45:34.416: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+23:45:34.417: [mp4 muxer: 'simple_file_output'] Number of fragments: 206
+23:45:34.429: [mp4 muxer: 'simple_file_output'] Full moov size: 882 KiB
+23:45:34.429: [mp4 muxer: 'simple_file_output'] Final mdat size: 85945 KiB
+23:45:34.429: Output 'simple_file_output': stopping
+23:45:34.429: Output 'simple_file_output': Total frames output: 49386
+23:45:34.429: Output 'simple_file_output': Total drawn frames: 49423
+23:45:34.429: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+23:45:34.430: [mp4 output: 'simple_file_output'] File output complete. Finalization took 13 ms.
+23:45:34.430: ==== Recording Stop ================================================
+23:45:34.466: libfdk_aac encoder destroyed
+00:00:10.671: ---------------------------------
+00:00:10.671: [x264 encoder: 'simple_video_recording'] preset: veryfast
+00:00:10.671: [x264 encoder: 'simple_video_recording'] profile: high
+00:00:10.671: [x264 encoder: 'simple_video_recording'] settings:
+00:00:10.671: 	rate_control: CRF
+00:00:10.671: 	bitrate:      0
+00:00:10.671: 	buffer size:  0
+00:00:10.671: 	crf:          21
+00:00:10.671: 	fps_num:      30
+00:00:10.671: 	fps_den:      1
+00:00:10.671: 	width:        1280
+00:00:10.671: 	height:       720
+00:00:10.671: 	keyint:       250
+00:00:10.671: 
+00:00:10.675: libfdk_aac encoder created
+00:00:10.675: libfdk_aac bitrate: 192, channels: 2
+00:00:10.677: ==== Recording Start ===============================================
+00:00:10.677: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/hannes/recording/2026-03-04 00-00-10.mp4'...
+00:08:48.231: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+00:08:48.231: [mp4 muxer: 'simple_file_output'] Number of fragments: 65
+00:08:48.234: [mp4 muxer: 'simple_file_output'] Full moov size: 277 KiB
+00:08:48.234: [mp4 muxer: 'simple_file_output'] Final mdat size: 26523 KiB
+00:08:48.234: Output 'simple_file_output': stopping
+00:08:48.234: Output 'simple_file_output': Total frames output: 15491
+00:08:48.234: Output 'simple_file_output': Total drawn frames: 15527
+00:08:48.234: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+00:08:48.235: [mp4 output: 'simple_file_output'] File output complete. Finalization took 3 ms.
+00:08:48.235: ==== Recording Stop ================================================
+00:08:48.274: libfdk_aac encoder destroyed
+08:07:30.849: [pipewire] Stream 0xce115f72c20 state: "paused" (error: none)
+08:07:30.849: [pipewire] Negotiated format:
+08:07:30.849: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+08:07:30.849: [pipewire]     Modifier: 0x200000010567b03
+08:07:30.849: [pipewire]     Size: 2560x1600
+08:07:30.849: [pipewire]     Framerate: 0/1
+08:07:30.850: [pipewire] Negotiated format:
+08:07:30.850: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+08:07:30.850: [pipewire]     Modifier: 0x200000010567b03
+08:07:30.850: [pipewire]     Size: 2560x1600
+08:07:30.850: [pipewire]     Framerate: 0/1
+08:07:30.851: [pipewire] Stream 0xce115f72c20 state: "streaming" (error: none)
+12:22:26.128: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+12:22:26.133: User added source 'Video Capture Device (PipeWire) (BETA)' (pipewire-camera-source) to scene 'Scene'
+12:22:26.159: [camera-portal] Selected format for ''
+12:22:26.159: [camera-portal] selected camera ''
+12:22:27.536: [camera-portal] Successfully accessed cameras
+12:22:27.541: [pipewire] Server version: 1.4.10
+12:22:27.541: [pipewire] Library version: 1.4.10
+12:22:27.541: [pipewire] Header version: 1.4.9
+12:22:27.541: [pipewire] Created registry 0x673e6800bae0
+12:22:27.541: [camera-portal] Found device v4l2_input.pci-0000_06_00.0-usb-0_1_1.0
+12:22:27.541: [camera-portal] Found device v4l2_input.pci-0000_06_00.0-usb-0_1_1.2
+12:22:27.542: [camera-portal] Selected format for ''
+12:22:27.542: [camera-portal] selected camera ''
+12:22:27.549: [camera-portal] Selected format for ''
+12:22:27.549: [camera-portal] selected camera ''
+12:22:29.849: [camera-portal] selected camera 'v4l2_input.pci-0000_06_00.0-usb-0_1_1.0'
+12:22:29.849: [camera-portal] Updating pixel formats
+12:22:29.849: [camera-portal] Selected format for 'v4l2_input.pci-0000_06_00.0-usb-0_1_1.0'
+12:22:29.849: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+12:22:29.851: [camera-portal] Selected format for 'v4l2_input.pci-0000_06_00.0-usb-0_1_1.0'
+12:22:29.852: [camera-portal] streaming camera 'v4l2_input.pci-0000_06_00.0-usb-0_1_1.0'
+12:22:29.852: [pipewire] Created stream 0xce116c6dd10
+12:22:29.852: [pipewire] Stream 0xce116c6dd10 state: "connecting" (error: none)
+12:22:29.852: [pipewire] Playing stream 0xce116c6dd10
+12:22:29.853: [pipewire] Stream 0xce116c6dd10 state: "paused" (error: none)
+12:22:29.854: [pipewire] Renegotiating stream
+12:22:29.860: [camera-portal] Updating device v4l2_input.pci-0000_06_00.0-usb-0_1_1.0
+12:22:29.991: [pipewire] Negotiated format:
+12:22:29.991: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+12:22:29.991: [pipewire]     Size: 640x480
+12:22:29.991: [pipewire]     Framerate: 30/1
+12:22:29.993: [pipewire] Stream 0xce116c6dd10 state: "streaming" (error: none)
+12:22:33.843: [camera-portal] selected camera 'v4l2_input.pci-0000_06_00.0-usb-0_1_1.2'
+12:22:33.843: [camera-portal] Updating pixel formats
+12:22:33.844: [camera-portal] Selected format for 'v4l2_input.pci-0000_06_00.0-usb-0_1_1.2'
+12:22:33.844: [pipewire] Stream 0xce116c6dd10 state: "paused" (error: none)
+12:22:33.845: [pipewire] Stream 0xce116c6dd10 state: "unconnected" (error: none)
+12:22:33.857: [camera-portal] streaming camera 'v4l2_input.pci-0000_06_00.0-usb-0_1_1.2'
+12:22:33.858: [pipewire] Created stream 0xce116c6dd10
+12:22:33.858: [pipewire] Stream 0xce116c6dd10 state: "connecting" (error: none)
+12:22:33.858: [pipewire] Playing stream 0xce116c6dd10
+12:22:33.859: [pipewire] Stream 0xce116c6dd10 state: "paused" (error: none)
+12:22:33.860: [camera-portal] Updating device v4l2_input.pci-0000_06_00.0-usb-0_1_1.2
+12:22:33.874: [pipewire] Stream 0xce116c6dd10 state: "error" (error: no more input formats)
+12:22:33.874: [pipewire] Error id:5 seq:47 res:-32 (Broken pipe): no more input formats
+12:22:38.353: [camera-portal] selected camera 'v4l2_input.pci-0000_06_00.0-usb-0_1_1.0'
+12:22:38.353: [camera-portal] Updating pixel formats
+12:22:38.353: [camera-portal] Selected format for 'v4l2_input.pci-0000_06_00.0-usb-0_1_1.0'
+12:22:38.353: [pipewire] Stream 0xce116c6dd10 state: "unconnected" (error: none)
+12:22:38.355: [camera-portal] streaming camera 'v4l2_input.pci-0000_06_00.0-usb-0_1_1.0'
+12:22:38.355: [pipewire] Created stream 0xce116c6dd10
+12:22:38.355: [pipewire] Stream 0xce116c6dd10 state: "connecting" (error: none)
+12:22:38.356: [pipewire] Playing stream 0xce116c6dd10
+12:22:38.357: [pipewire] Stream 0xce116c6dd10 state: "paused" (error: none)
+12:22:38.360: [camera-portal] Updating device v4l2_input.pci-0000_06_00.0-usb-0_1_1.0
+12:22:38.495: [pipewire] Negotiated format:
+12:22:38.495: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+12:22:38.495: [pipewire]     Size: 640x480
+12:22:38.495: [pipewire]     Framerate: 30/1
+12:22:38.506: [pipewire] Stream 0xce116c6dd10 state: "streaming" (error: none)
+03:04:27.567: adding 64 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Mic/Aux)
+03:04:27.567: 

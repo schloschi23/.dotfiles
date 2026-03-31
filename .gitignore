@@ -1,0 +1,4 @@
+cat_installer
+.config
+rclone
+.config/rclone/rclone.conf
